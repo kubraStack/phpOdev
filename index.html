@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(151, 151, 147);
+        }
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid black;
+            padding: 50px;
+            box-shadow:  -5px 5px gray;
+            background-color: rgb(169, 137, 199);
+        }
+        input{
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+            background-color: cornsilk;
+        }
+        button{
+            height: 40px;
+            border-radius: 5px;
+            cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="app.php" method="post">
+           <label for="number">Lütfen bir sayı girin: </label>
+           <input type="text" name="number" id="sayi">
+           <button type="submit">Gönder</button>
+
+        </form>
+    </div>
+
+   
+    
+</body>
+</html>
